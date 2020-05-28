@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.dependency 'PhoneNumberKit', '3.1'
     s.dependency 'SwiftSoup', '2.2.0'
     s.dependency 'ReachabilitySwift', '4.3.0'
-    s.dependency 'ZMLKit', '0.0.17'
+    s.dependency 'ZMLKit', '0.0.18'
     s.dependency 'SQLite.swift', '0.11.5'
     s.dependency 'SQLite.Wrapper', '0.0.17'
     s.swift_version = '4.2'
