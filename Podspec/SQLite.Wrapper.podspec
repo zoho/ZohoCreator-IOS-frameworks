@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = 'SQLiteWrapper.framework'  
     s.dependency 'PromisesSwift', '~> 1.2.8'
     s.swift_version = '4.2'
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end 

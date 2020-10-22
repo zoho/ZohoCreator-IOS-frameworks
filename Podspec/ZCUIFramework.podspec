@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
     s.dependency 'EasyTipView'
     s.dependency 'ZBarSDK'
     s.swift_version = '4.2'
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end 
