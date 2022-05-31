@@ -1,2 +1,2 @@
 # ZohoCreator-IOS-frameworks
-ZohoCreator IOS Frameworkss
+ZohoCreator IOS Frameworks
