@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/zoho/ZohoCreator-IOS-frameworks/blob/master/SQLiteWrapper/1.0.5/SQLiteWrapper.zip?raw=true' }
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'SQLiteWrapper.framework'  
     s.dependency 'PromisesSwift', '~> 1.2.8'
     s.swift_version = '4.2'

@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/zoho/ZohoCreator-IOS-frameworks/blob/master/ZCCoreFramework/1.0.5/ZCCoreFramework.zip?raw=true' }
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'ZCCoreFramework.framework'
     s.dependency 'PromisesSwift', '1.2.8'
     s.dependency 'PhoneNumberKit', '3.1'
