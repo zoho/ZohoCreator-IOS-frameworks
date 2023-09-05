@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'SQLite.Wrapper'
-    s.version           = '1.0.5'
+    s.version           = '1.0.7'
     s.summary           = 'Database helper'
     s.homepage          = 'https://creator.zoho.com/'
 
