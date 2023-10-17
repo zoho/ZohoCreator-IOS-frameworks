@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ZCUIFramework'
-    s.version           = '1.0.7'
+    s.version           = '2.0'
     s.summary           = 'ZCUIFramework that provides UI Interfaces of Zoho creator'
     s.homepage          = 'https://creator.zoho.com/'
 

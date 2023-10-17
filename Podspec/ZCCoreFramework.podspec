@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ZCCoreFramework'
-    s.version           = '1.0.7'
+    s.version           = '2.0'
     s.summary           = 'ZCCoreFramework that interacts with Zoho Creator Rest API'
     s.homepage          = 'https://creator.zoho.com/'
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ZMLKit'
-    s.version           = '1.0.7'
+    s.version           = '2.0'
     s.summary           = 'Framework which parse the ZML'
     s.homepage          = 'https://creator.zoho.com/'
 
