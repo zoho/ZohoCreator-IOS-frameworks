@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ZCCoreFramework'
-    s.version           = '2.1'
+    s.version           = '2.1.1'
     s.summary           = 'ZCCoreFramework that interacts with Zoho Creator Rest API'
     s.homepage          = 'https://creator.zoho.com/'
 
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
     s.dependency 'PhoneNumberKit', '3.1'
     s.dependency 'SwiftSoup', '1.7.4'
     s.dependency 'ReachabilitySwift', '4.3.0'
-    s.dependency 'ZMLKit', '2.1'
+    s.dependency 'ZMLKit', '2.1.1'
     s.dependency 'SQLite.swift', '0.11.5'
-    s.dependency 'SQLite.Wrapper', '2.1'
+    s.dependency 'SQLite.Wrapper', '2.1.1'
     s.swift_version = '4.2'
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

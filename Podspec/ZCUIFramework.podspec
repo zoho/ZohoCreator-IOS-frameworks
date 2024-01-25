@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
     s.source            = { :http => 'https://github.com/zoho/ZohoCreator-IOS-frameworks/blob/master/ZCUIFramework/2.1/ZCUIFramework.zip?raw=true' }
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = 'ZCUIFramework.framework'
-    s.dependency 'ZCCoreFramework', '2.1'
-    s.dependency 'CropViewController'    
+    s.dependency 'ZCCoreFramework', '2.1.1'
+    s.dependency 'CropViewController'
     s.dependency 'EasyTipView'
     s.dependency 'Zip'
     s.dependency 'GLTFSceneKitTemp'
