@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.dependency 'SwiftSoup', '1.7.4'
     s.dependency 'ReachabilitySwift', '4.3.0'
     s.dependency 'ZMLKit', '2.3.2'
-    s.dependency 'SQLite.swift', '0.11.5'
+    s.dependency 'SQLite.swift', '0.15.3'
     s.dependency 'SQLite.Wrapper', '2.3.2'
     s.swift_version = '4.2'
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
